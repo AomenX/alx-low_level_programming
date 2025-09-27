@@ -4,7 +4,7 @@
  * Prototype: void print_alphabet(void),
  * You can only use _putchar twice in your code
  * Return: always 0 (success)
- * */
+ */
 void	print_alphabet(void)
 {
 	char	c;

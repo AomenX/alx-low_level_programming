@@ -1,0 +1,36 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * print_to_98 - prints all natural numbers from n to 98,
+ * followed by a new line, separated by ", ",
+ * Numbers should be printed in order
+ * Prototype: void print_to_98(int n);
+ * @n: int to be printed
+ */
+void	print_to_98(int n)
+{
+	int	i;
+	int	j;
+
+	i = n;
+	j = n;
+	if (n == 98)
+		printf("%d", n);
+	if (n < 98)
+	{
+		while (i <= 98)
+		{
+			printf("%d, ", i);
+			i++;
+		}
+	}
+	else if (n > 98)
+	{
+		while (j >= 98)
+		{
+			printf("%d, ", j);
+			j--;
+		}
+	}
+	printf("\n");
+}

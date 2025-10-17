@@ -6,10 +6,10 @@
  * Return: the result of the operation
  */
 
-int	mul(int a, int b);
+int	mul(int a, int b)
 {
 	int	m;
 
-	c = a * b;
-	return (c);
+	m = a * b;
+	return (m);
 }

@@ -27,7 +27,7 @@ void	puts_half(char *str)
 			h++;
 		}
 	}
-	else if (len % 2 != 0)
+	else if (len % 2)
 	{
 		n = (len - 1) / 2;
 		while (n < len - 1)
